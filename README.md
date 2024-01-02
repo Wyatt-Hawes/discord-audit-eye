@@ -1,4 +1,4 @@
-# Discord Eye
+# Discord Audit Eye
 
 - Given a user, tracks the amount of mutes, moves, and disconnects that a user has done to another user.
 - Accomplishes this by parsing the Discord Audit Log, searching for specific action commands
