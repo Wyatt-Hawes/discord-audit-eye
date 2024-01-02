@@ -10,3 +10,12 @@ Example of the bot being used with the trigger message of "get audit log"
 
 Example of the bot being used with the trigger message of "migis, check"
 ![alt text](./example_images/Ex2.PNG)
+
+# How to use
+
+- Download files
+- Add your Discord Bots ID to the .env file and rename it to `.env`
+- type `npm install` inside the terminal
+- type `node index.js` to run the bot
+
+To change the access command, go inside `index.js` and change the `access_command` variable to be any string you want. The bot will look for the username in the format of `<access_command> <@user>`
